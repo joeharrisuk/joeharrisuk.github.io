@@ -35,4 +35,4 @@ I'm a PhD researcher in quantum computing at the German Aerospace Center (DLR) i
 
 Previously, I've worked in the Quantum Informatics group at the University of Edinburgh after completing my master's there in 2022. Before that, I studied Mathematics at the University of Cambridge. 
 
-Current hobbies include running 🏃, knitting 🧶, gaming 👾 and drinking (decaf!) coffee ☕
+Current hobbies include running 🏃, knitting 🧶, gaming 👾 and drinking copious amounts of (decaf!) coffee ☕
