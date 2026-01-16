@@ -1,6 +1,5 @@
 # Publications
 
-
 <div class="publication-card">
     <div class="publication-image">
         <img src="assets/bqp-qem.png" alt="AgentBreeder publication">

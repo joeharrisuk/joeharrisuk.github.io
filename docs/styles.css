@@ -9,15 +9,24 @@ html {
     scroll-behavior: smooth;
 }
 
+.site-logo {
+    display: block;
+}
+
+/* Dark mode logo swap */
+html[data-theme="dark"] .site-logo {
+    content: url("assets/logowhite.png");
+}
+
 /* CSS Custom Properties for theming */
 :root {
     /* Light theme colors (inspired by astro-theme-cactus) */
     --color-global-bg: oklch(98.48% 0 0);
-    --color-global-text: oklch(26.99% 0.0096 235.05);
-    --color-link: oklch(55.44% 0.0431 185.69);
-    --color-accent: #af67ff;
+    --color-global-text: oklch(0% 0 0);
+    --color-link: oklch(44.686% 0.19921 318.092);
+    --color-accent: #6217b8;
     --color-accent-2: oklch(18.15% 0 0);
-    --color-quote: #af67ff;
+    --color-quote: #6a00e2;
     --color-border: #e5e7eb;
     --color-card-bg: rgba(255, 255, 255, 0.8);
     --color-shadow: rgba(0, 0, 0, 0.1);
@@ -249,9 +258,13 @@ body {
     padding: 1rem 1rem 0.5rem 1rem; /* Match main content px-4 */
 }
 
-
-
 /* Header grid layout */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
 .header-grid {
     display: grid;
     grid-template-columns: auto 1fr minmax(0, auto);
@@ -265,7 +278,13 @@ body {
 
 .header-logo { grid-area: logo; align-self: center; }
 .header-title { grid-area: title; align-self: center; }
-.header-nav { grid-area: nav; align-self: center; }
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+
 .header-controls { 
     grid-area: controls; 
     justify-self: end; 
