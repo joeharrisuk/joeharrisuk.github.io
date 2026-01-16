@@ -113,7 +113,7 @@ body {
 .underline { text-decoration: underline; }
 .underline-offset-2 { text-underline-offset: 2px; }
 .grayscale { filter: grayscale(100%); }
-.opacity-75 { opacity: 0.75; }
+.opacity-50 { opacity: 0.5; }
 .text-center { text-align: center; }
 .text-xs { font-size: 0.75rem; }
 
