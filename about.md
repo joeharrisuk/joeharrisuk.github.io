@@ -29,10 +29,11 @@
 </div>
 
 
+
 Hey there, I'm Joe! 
 
 I'm a PhD researcher in quantum computing at the German Aerospace Center (DLR) in Cologne, currently working on benchmarking and error mitigation of near to intermediate-term quantum hardware. 
 
-Previously, I've worked in the Quantum Informatics group at the University of Edinburgh after completing my master's there in 2022. Before that, I studied Mathematics at the University of Cambridge. 
+Previously, I've worked in the Quantum Informatics group at the University of Edinburgh after completing my master's there in 2022. Before that, I was awarded a Fellowship from the Los Alamos Quantum Computing Summer School, and studied Mathematics at the University of Cambridge. 
 
 Current hobbies include running 🏃, knitting 🧶, gaming 👾 and drinking copious amounts of (decaf!) coffee ☕

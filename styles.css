@@ -24,7 +24,7 @@ html[data-theme="dark"] .site-logo {
     --color-global-bg: oklch(98.48% 0 0);
     --color-global-text: oklch(0% 0 0);
     --color-link: oklch(44.686% 0.19921 318.092);
-    --color-accent: #6217b8;
+    --color-accent: #6b3ba3d2;
     --color-accent-2: oklch(18.15% 0 0);
     --color-quote: #6a00e2;
     --color-border: #e5e7eb;
@@ -32,12 +32,14 @@ html[data-theme="dark"] .site-logo {
     --color-shadow: rgba(0, 0, 0, 0.1);
 }
 
+
+
 /* Dark theme colors */
 [data-theme="dark"] {
     --color-global-bg: oklch(23.64% 0.0045 248);
     --color-global-text: oklch(83.54% 0 264);
-    --color-link: oklch(70.44% 0.1133 349);
-    --color-accent: #5ff26b;
+    --color-link: oklch(75.92% 0.04412 347.306);
+    --color-accent: #cff8d2;
     --color-accent-2: oklch(94.66% 0 0);
     --color-quote: oklch(94.8% 0.106 136.49);
     --color-border: #374151;
@@ -56,6 +58,11 @@ body {
     transition: opacity 0.2s ease;
     padding-top: 8rem; /* Increased to account for fixed header */
 }
+
+.hyperlink{
+    color:rgb(161, 111, 146);
+}
+
 
 /* Responsive body padding */
 @media (max-width: 640px) {
@@ -189,57 +196,6 @@ body {
 
 .cactus-link:hover {
     text-decoration-thickness: 2px;
-}
-
-/* Hover color for individual 'b'/'B' letters */
-.hover-b {
-    transition: color 0.15s ease;
-}
-.hover-b:hover {
-    color: #ffd400; /* yellow */
-}
-
-/* Flying bee emoji created on clicking a 'b' */
-.flying-bee {
-    position: fixed;
-    z-index: 9999;
-    pointer-events: none;
-    font-size: 1.2em;
-    line-height: 1;
-    will-change: transform, opacity;
-    animation: bee-fly 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-}
-
-@keyframes bee-fly {
-    0% {
-        transform: translate(0, 0) rotate(0deg);
-        opacity: 1;
-    }
-    20% {
-        transform: translate(calc(var(--dx) * 0.2), calc(var(--dy) * 0.2)) rotate(90deg);
-    }
-    40% {
-        transform: translate(calc(var(--dx) * 0.4 + 6px), calc(var(--dy) * 0.4 - 4px)) rotate(180deg);
-    }
-    60% {
-        transform: translate(calc(var(--dx) * 0.6 - 4px), calc(var(--dy) * 0.6 + 6px)) rotate(270deg);
-    }
-    80% {
-        transform: translate(calc(var(--dx) * 0.8 + 3px), calc(var(--dy) * 0.8 - 3px)) rotate(360deg);
-    }
-    100% {
-        transform: translate(var(--dx), var(--dy)) rotate(450deg);
-        opacity: 0;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .flying-bee {
-        animation: bee-fade 250ms ease-out forwards;
-    }
-    @keyframes bee-fade {
-        to { opacity: 0; }
-    }
 }
 
 /* Header styles */
@@ -525,10 +481,10 @@ body {
 .about-header {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
+    gap: 2.25rem;
     flex-wrap: nowrap;
     margin-top: 0.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
 }
 
 .about-avatar {
