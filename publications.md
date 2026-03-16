@@ -2,6 +2,26 @@
 
 <div class="publication-card">
     <div class="publication-image">
+        <img src="assets/bias-variance.png" alt="Stream publication">
+    </div>
+    <div class="publication-content">
+        <h3 class="publication-title">
+            <a href="https://arxiv.org/abs/2603.10224" class="publication-link">
+                Reducing Quantum Error Mitigation Bias Using Verifiable Benchmark Circuits
+            </a>
+        </h3>
+        <div class="publication-venue">arXiv:2603.10224</div>
+        <div class="publication-authors">Joseph Harris, Kevin Lively, Peter K Schuhmacher</div>
+        <div class="publication-year">2026</div>
+        <div class="publication-tags">
+            <a href="https://arxiv.org/abs/2603.10224" class="tag tag-arxiv">Paper</a>
+            <a href="https://github.com/joeharrisuk/qem-bias-mitigation" class="tag tag-github">GITHUB</a>
+        </div>
+    </div>
+</div>
+
+<div class="publication-card">
+    <div class="publication-image">
         <img src="assets/bqp-qem.png" alt="AgentBreeder publication">
     </div>
     <div class="publication-content">
