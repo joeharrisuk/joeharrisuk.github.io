@@ -22,6 +22,25 @@
 
 <div class="publication-card">
     <div class="publication-image">
+        <img src="assets/app-aware.png" alt="Stream publication">
+    </div>
+    <div class="publication-content">
+        <h3 class="publication-title">
+            <a href="https://arxiv.org/abs/2410.01505" class="publication-link">
+                Application-Aware Benchmarking on NISQ Hardware using Expectation Value Fidelities
+            </a>
+        </h3>
+        <div class="publication-venue">arXiv:2410.01505</div>
+        <div class="publication-authors">Joseph Harris, Peter K Schuhmacher</div>
+        <div class="publication-year">2025</div>
+        <div class="publication-tags">
+            <a href="https://arxiv.org/abs/2410.01505" class="tag tag-arxiv">Paper</a>
+        </div>
+    </div>
+</div>
+
+<div class="publication-card">
+    <div class="publication-image">
         <img src="assets/bqp-qem.png" alt="AgentBreeder publication">
     </div>
     <div class="publication-content">
