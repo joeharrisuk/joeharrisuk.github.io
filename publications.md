@@ -2,7 +2,27 @@
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="assets/bias-variance.png" alt="Stream publication">
+        <img src="assets/bnzne.png">
+    </div>
+    <div class="publication-content">
+        <h3 class="publication-title">
+            <a href="https://arxiv.org/abs/2603.10224" class="publication-link">
+                Improved Low-Cost Quantum Error Mitigation with Benchmarked-Noise Zero-Noise Extrapolation (bnZNE)
+            </a>
+        </h3>
+        <div class="publication-venue">arXiv:2611.16971</div>
+        <div class="publication-authors">Joseph Harris, Kevin Lively, Peter K Schuhmacher</div>
+        <div class="publication-year">2026</div>
+        <div class="publication-tags">
+            <a href="https://arxiv.org/abs/2611.16971" class="tag tag-arxiv">Paper</a>
+            <a href="https://github.com/joeharrisuk/qem-bias-mitigation" class="tag tag-github">GITHUB</a>
+        </div>
+    </div>
+</div>
+
+<div class="publication-card">
+    <div class="publication-image">
+        <img src="assets/bias-variance.png">
     </div>
     <div class="publication-content">
         <h3 class="publication-title">
@@ -22,7 +42,7 @@
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="assets/app-aware.png" alt="Stream publication">
+        <img src="assets/app-aware.png">
     </div>
     <div class="publication-content">
         <h3 class="publication-title">
@@ -41,7 +61,7 @@
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="assets/bqp-qem.png" alt="AgentBreeder publication">
+        <img src="assets/bqp-qem.png">
     </div>
     <div class="publication-content">
         <h3 class="publication-title">
@@ -61,7 +81,7 @@
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="assets/butterfly.png" alt="Stream publication">
+        <img src="assets/butterfly.png">
     </div>
     <div class="publication-content">
         <h3 class="publication-title">
