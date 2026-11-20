@@ -6,7 +6,7 @@
     </div>
     <div class="publication-content">
         <h3 class="publication-title">
-            <a href="https://arxiv.org/abs/2603.10224" class="publication-link">
+            <a href="https://arxiv.org/abs/2611.16971" class="publication-link">
                 Improved Low-Cost Quantum Error Mitigation with Benchmarked-Noise Zero-Noise Extrapolation (bnZNE)
             </a>
         </h3>
